@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420" role="img" aria-labelledby="title desc">
+<title id="title">Импорт приложения</title>
+<desc id="desc">В ESign выберите «Импорт» и укажите сохранённый .ipa файл приложения. Это упрощённая схема, расположение элементов в приложении может отличаться.</desc>
+<rect width="480" height="420" fill="#eff5ff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+<rect x="24" y="24" width="432" height="372" rx="26" fill="#fff" stroke="#dce6f3" stroke-width="2"/>
+<rect x="44" y="43" width="44" height="44" rx="13" fill="#1769ed"/><text x="66" y="77" font-size="34" fill="#fff" font-weight="600" text-anchor="middle">E</text><text x="108" y="76" font-size="28" fill="#17243b" font-weight="600" text-anchor="start">ESign</text>
+<path d="M44 101H436" fill="none" stroke="#dce6f3" stroke-width="2"/>
+<rect x="40" y="126" width="400" height="64" rx="18" fill="#1769ed" stroke="none" stroke-width="2"/><text x="240" y="169" font-size="29" fill="#fff" font-weight="600" text-anchor="middle">Импорт</text><path d="M240 211v22m-9-9 9 9 9-9" fill="none" stroke="#1769ed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="40" y="261" width="400" height="72" rx="18" fill="#f2f7ff" stroke="#dce9fd" stroke-width="2"/><path d="M59 273h25l13 13v36h-38Z" fill="#e9f2ff" stroke="#1769ed" stroke-width="2.5" stroke-linejoin="round"/><path d="M84 273v13h13m-29 11h19m-19 10h13" fill="none" stroke="#1769ed" stroke-width="2.5" stroke-linecap="round"/><text x="113" y="307" font-size="29" fill="#17243b" font-weight="600" text-anchor="start">Приложение.ipa</text>
+<text x="240" y="382" font-size="20" fill="#60728e" font-weight="500" text-anchor="middle">Схема · шаг 10</text>
+</g>
+</svg>

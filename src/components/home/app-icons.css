@@ -1,0 +1,152 @@
+.app-icons-scene {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 310px;
+  margin-inline: auto;
+  isolation: isolate;
+}
+
+.app-icons-scene::before {
+  content: "";
+  position: absolute;
+  inset: 8% -2% 4%;
+  z-index: -1;
+  border-radius: 50%;
+  background:
+    radial-gradient(ellipse at 30% 40%, #fff 0%, transparent 56%),
+    radial-gradient(ellipse at 65% 65%, #dbe9ff 0%, #ecf3ff 35%, transparent 70%);
+}
+
+.app-icons-scene::after {
+  content: "";
+  position: absolute;
+  inset: auto 13% 2%;
+  height: 14%;
+  z-index: -1;
+  border-radius: 50%;
+  background: #a9c1e7;
+  opacity: .16;
+  filter: blur(18px);
+}
+
+.app-icons-composition {
+  position: absolute;
+  inset: 0;
+}
+
+.app-icon-tile {
+  --tile-front: #fff;
+  --tile-rim: #d6e0ef;
+  position: absolute;
+  width: 21%;
+  aspect-ratio: 1;
+  border-radius: 25%;
+  background: var(--tile-front);
+  transform: rotate(var(--tile-rotation));
+  box-shadow:
+    0 5px 0 1px var(--tile-rim),
+    0 9px 10px rgb(52 82 130 / 9%),
+    5px 18px 23px rgb(52 82 130 / 16%),
+    inset 1px 2px 3px rgb(255 255 255 / 56%),
+    inset -2px -2px 3px rgb(0 0 0 / 8%);
+}
+
+.app-icon-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(145deg, rgb(255 255 255 / 14%), transparent 40%, rgb(0 0 0 / 3%));
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 16%);
+}
+
+.app-icon-tile svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.app-icon-tile--vk {
+  --tile-front: linear-gradient(135deg, #409cff, #0575f2);
+  --tile-rim: #4d9eea;
+  --tile-rotation: -14deg;
+  width: 23%;
+  top: 8%;
+  left: 5%;
+}
+
+.app-icon-tile--messenger {
+  --tile-front: linear-gradient(135deg, #3638ff 10%, #7442ff 70%, #d679fa);
+  --tile-rim: #987df1;
+  --tile-rotation: 7deg;
+  width: 20%;
+  top: 2%;
+  left: 40%;
+}
+
+.app-icon-tile--tbank {
+  --tile-front: linear-gradient(135deg, #ffe971, #ffd330);
+  --tile-rim: #eec358;
+  --tile-rotation: 15deg;
+  width: 22%;
+  top: 17%;
+  left: 72%;
+}
+
+.app-icon-tile--sber {
+  --tile-rotation: -7deg;
+  width: 22%;
+  top: 37%;
+  left: 19%;
+}
+
+.app-icon-tile--alfa {
+  --tile-front: linear-gradient(135deg, #ff475d, #f31936);
+  --tile-rim: #e35161;
+  --tile-rotation: 13deg;
+  width: 23%;
+  top: 33%;
+  left: 48%;
+}
+
+.app-icon-tile--minecraft {
+  --tile-rim: #7d6850;
+  --tile-rotation: -11deg;
+  width: 19%;
+  top: 48%;
+  left: 76%;
+}
+
+.app-icon-tile--youtube {
+  --tile-front: linear-gradient(135deg, #24364c, #101821);
+  --tile-rim: #394e67;
+  --tile-rotation: 12deg;
+  width: 24%;
+  top: 65%;
+  left: 1%;
+}
+
+.app-icon-tile--spotify {
+  --tile-front: linear-gradient(135deg, #29333c, #101419);
+  --tile-rim: #3f4852;
+  --tile-rotation: -12deg;
+  width: 24%;
+  top: 70%;
+  left: 33%;
+}
+
+.app-icon-tile--tiktok {
+  --tile-front: linear-gradient(135deg, #27313b, #080a0e);
+  --tile-rim: #343c48;
+  --tile-rotation: 7deg;
+  width: 22%;
+  top: 70%;
+  left: 66%;
+}
+
+@media (min-width: 640px) {
+  .app-icons-scene { height: 360px; }
+}

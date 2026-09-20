@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420" role="img" aria-labelledby="title desc">
+<title id="title">Импорт сертификата с паролем</title>
+<desc id="desc">Нажмите на .p12, выберите «Импортировать сертификат», затем введите пароль 1 и подтвердите. Это упрощённая схема, расположение элементов в приложении может отличаться.</desc>
+<rect width="480" height="420" fill="#eff5ff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+<rect x="24" y="24" width="432" height="372" rx="26" fill="#fff" stroke="#dce6f3" stroke-width="2"/>
+<rect x="44" y="43" width="44" height="44" rx="13" fill="#1769ed"/><text x="66" y="77" font-size="34" fill="#fff" font-weight="600" text-anchor="middle">E</text><text x="108" y="76" font-size="28" fill="#17243b" font-weight="600" text-anchor="start">ESign</text>
+<path d="M44 101H436" fill="none" stroke="#dce6f3" stroke-width="2"/>
+<text x="240" y="138" font-size="31" fill="#1769ed" font-weight="700" text-anchor="middle">.p12</text><rect x="40" y="154" width="400" height="90" rx="18" fill="#1769ed" stroke="none" stroke-width="2"/><text x="240" y="190" font-size="29" fill="#fff" font-weight="600" text-anchor="middle">Импортировать</text><text x="240" y="224" font-size="29" fill="#fff" font-weight="600" text-anchor="middle">сертификат</text><rect x="40" y="261" width="400" height="86" rx="18" fill="#f2f7ff" stroke="#dce9fd" stroke-width="2"/><text x="57" y="315" font-size="28" fill="#17243b" font-weight="600" text-anchor="start">Пароль</text><rect x="177" y="277" width="91" height="53" rx="12" fill="#fff" stroke="#aecbf2" stroke-width="2"/><text x="222" y="314" font-size="34" fill="#17243b" font-weight="600" text-anchor="middle">1</text><rect x="288" y="277" width="135" height="53" rx="12" fill="#1769ed" stroke="none" stroke-width="2"/><text x="355" y="313" font-size="28" fill="#fff" font-weight="600" text-anchor="middle">ОК</text>
+<text x="240" y="382" font-size="20" fill="#60728e" font-weight="500" text-anchor="middle">Схема · шаг 8</text>
+</g>
+</svg>

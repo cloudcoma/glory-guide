@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420" role="img" aria-labelledby="title desc">
+<title id="title">Проверка UDID</title>
+<desc id="desc">В Telegram нажмите «Проверить UDID», затем отправьте идентификатор своего устройства. Это упрощённая схема, расположение элементов в приложении может отличаться.</desc>
+<rect width="480" height="420" fill="#eff5ff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+<rect x="24" y="24" width="432" height="372" rx="26" fill="#fff" stroke="#dce6f3" stroke-width="2"/>
+<circle cx="66" cy="65" r="22" fill="#1769ed"/><path d="m52 64 29-11-7 26-10-8-5 5 1-9 15-9-18 7Z" fill="#fff"/><text x="108" y="76" font-size="28" fill="#17243b" font-weight="600" text-anchor="start">Telegram</text>
+<path d="M44 101H436" fill="none" stroke="#dce6f3" stroke-width="2"/>
+<rect x="40" y="123" width="400" height="64" rx="18" fill="#1769ed" stroke="none" stroke-width="2"/><text x="240" y="166" font-size="29" fill="#fff" font-weight="600" text-anchor="middle">Проверить UDID</text><path d="M240 201v22m-9-9 9 9 9-9" fill="none" stroke="#1769ed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="40" y="248" width="400" height="80" rx="18" fill="#fff" stroke="#c9d9ed" stroke-width="2"/><text x="60" y="296" font-size="30" fill="#566b88" font-weight="500" text-anchor="start">Ваш UDID</text><circle cx="402" cy="288" r="24" fill="#1769ed"/><path d="M402 300v-23m-9 9 9-9 9 9" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="240" y="382" font-size="20" fill="#60728e" font-weight="500" text-anchor="middle">Схема · шаг 1</text>
+</g>
+</svg>
